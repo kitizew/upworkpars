@@ -1,0 +1,38 @@
+# секрети
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# профілі браузера (там твої cookies і сесії!)
+browser_profile/
+upwork_chrome_profile/
+chrome_profile/
+
+# файли розвідки
+x_*.txt
+dump_*.json
+page.html
+sniff*.py
+inspect_job.py
+connect_test.py
+login_once.py
+test.py
+
+# редактори та ОС
+.vscode/
+.idea/
+.DS_Store
+*.log*.tgz
+profile.tgz
